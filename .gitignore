@@ -1,0 +1,45 @@
+# --- Python ---
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+scripts/
+notebooks
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- macOS system files ---
+.DS_Store
+
+# --- Dagster ---
+**/.tmp_dagster_home*/
+
+# --- dbt artifacts ---
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/.dbt/
+
+# --- Data files (cleaned, raw, or intermediate) ---
+data/*.csv
+data/*.duckdb
+data/processed/
+data/exports
+data
+
+# --- Build artifacts ---
+*.egg-info/
+build/
+dist/
+logs/
+
+# --- Environment ---
+.env
+.env.*
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
